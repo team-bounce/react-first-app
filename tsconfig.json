@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "esModuleInterop": true,
+      "jsx": "react-jsx",
+      "types": ["react/next", "react-dom/next"],
+      "module": "es2020",
+      "moduleResolution": "node",
+      "lib": [
+        "dom",
+        "es2020"
+      ],
+      "strict": true,
+      "sourceMap": true,
+      "target": "es2020",
+    },
+    "exclude": [
+      "node_modules"
+    ]
+  }
