@@ -34,7 +34,7 @@ export class RbsNavbar extends React.Component<oProps, oState> {
     const {} = this.state;
     return (
       <React.Fragment>
-        <p>This is the RbsNavbar Component</p>
+        <p>This is the <strong>RbsNavbar</strong> Component</p>
         <a
           href="https://react-bootstrap.github.io/components/navbar/"
           target="new"

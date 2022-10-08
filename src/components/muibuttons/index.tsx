@@ -37,7 +37,7 @@ export class MuiButtons extends React.Component<oProps, oState> {
 
     return (
       <React.Fragment>
-        <p>This is the MuiButtons Component</p>
+        <p>This is the <strong>MuiButtons</strong> Component</p>
         <a href="https://mui.com/material-ui/getting-started/supported-components/" target="new">More Info...</a>
         <br />
 

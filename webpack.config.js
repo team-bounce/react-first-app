@@ -29,7 +29,7 @@ module.exports = {
   devtool: prod ? undefined : 'source-map',
   plugins: [
     new HtmlWebpackPlugin({
-      template: './src/html/index.html',
+      template: './src/index.html',
     }),
     new CopyWebpackPlugin({ patterns: [{ from: './src/static' }]}),
     new MiniCssExtractPlugin(),
